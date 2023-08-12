@@ -1,0 +1,7 @@
+:root {
+  --bg-page: #FFF6F1;
+}
+
+html, body {
+  background: var(--bg-page);
+}
