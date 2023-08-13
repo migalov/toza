@@ -13,6 +13,7 @@
     wp_enqueue_style( 'shortcuts-css', TOZA_THEME_ROOT . '/css/shortcuts.css', array(), null );
     wp_enqueue_style( 'product-card-css', TOZA_THEME_ROOT . '/css/product-card.css', array(), null );
     wp_enqueue_style( 'header-css', TOZA_THEME_ROOT . '/css/header.css', array(), null );
+    wp_enqueue_style( 'features-css', TOZA_THEME_ROOT . '/css/features.css', array(), null );
     wp_enqueue_style( 'normalize-css', TOZA_THEME_ROOT . '/css/normalize.min.css', array(), null );
   }
 

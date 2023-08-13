@@ -76,6 +76,7 @@
         </div>
       </li>
     </ul>
+    <!--
     <h2>Shortcuts</h2>
     <div class="shortcuts-list">
       <div class="shortcut shortcut--new">
@@ -135,7 +136,31 @@
           <path d="M4 4L0 0H4V4Z" fill="black" fill-opacity="0.3"/>
         </svg>
       </div>
-    </div>
+    </div>-->
+    <h2>Features</h2>
+    <ul class="features-list">
+      <li class="feature-item">
+        <img class="feature-item__icon" src="<? echo TOZA_THEME_ROOT ?>/img/features/motocycle.svg" alt="">
+        <div class="feature-item__text">
+          <h3 class="feature-item__title">Быстрая доставка</h3>
+          <p class="feature-item__description">В пределах города Балашихи и других близлежащих городов мы осуществяем бесперебойную доставку продуктов</p>
+        </div>
+      </li>
+      <li class="feature-item">
+        <img class="feature-item__icon" src="<? echo TOZA_THEME_ROOT ?>/img/features/motocycle.svg" alt="">
+        <div class="feature-item__text">
+          <h3 class="feature-item__title">Быстрая доставка</h3>
+          <p class="feature-item__description">В пределах города Балашихи и других близлежащих городов мы осуществяем бесперебойную доставку продуктов</p>
+        </div>
+      </li>
+      <li class="feature-item">
+        <img class="feature-item__icon" src="<? echo TOZA_THEME_ROOT ?>/img/features/motocycle.svg" alt="">
+        <div class="feature-item__text">
+          <h3 class="feature-item__title">Быстрая доставка</h3>
+          <p class="feature-item__description">В пределах города Балашихи и других близлежащих городов мы осуществяем бесперебойную доставку продуктов</p>
+        </div>
+      </li>
+    </ul>
   </div>
   
   
