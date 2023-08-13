@@ -1,0 +1,74 @@
+.shortcut {
+  position: relative;
+  padding: .5em 1em;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  font-family: "Source Sans 3";
+  font-size: .8em;
+  font-weight: 700;
+  letter-spacing: -.3px;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 2px 2px 2px 0px;;
+  background: #FFF;
+  z-index: 1;
+  margin: 0 0 4px;
+}
+
+.shortcut__triangle {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  & path:first-of-type {
+    fill: #FFF;
+  }
+}
+
+.shortcut--new {
+  background: #FE6DBB;
+  & path:first-of-type {
+    fill: #FE6DBB;
+  }
+}
+.shortcut--no-allowed {
+  background: #838383;
+  & path:first-of-type {
+    fill: #838383;
+  }
+}
+.shortcut--hit {
+  background: #FF5E54;
+  & path:first-of-type {
+    fill: #FF5E54;
+  }
+}
+.shortcut--limited {
+  background: #FF8F50;
+  & path:first-of-type {
+    fill: #FF8F50;
+  }
+}
+.shortcut--delivery {
+  background: #D0A1FF;
+  & path:first-of-type {
+    fill: #D0A1FF;
+  }
+}
+.shortcut--pickup {
+  background: #A1C1FF;
+  & path:first-of-type {
+    fill: #A1C1FF;
+  }
+}
+.shortcut--gift {
+  background: #FF8D8D;
+  & path:first-of-type {
+    fill: #FF8D8D;
+  }
+}
+.shortcut--soon {
+  background: #FFD363;
+  & path:first-of-type {
+    fill: #FFD363;
+  }
+}

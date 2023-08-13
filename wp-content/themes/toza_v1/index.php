@@ -8,15 +8,13 @@
   <div class="popup popup--show">
   <div class="popup">
     <div class="navigation-mobile">
-      <?php 
-        wp_nav_menu(array(
-          'theme_location' => 'top',
-          'container' => null,
-          'container_class' => 'navigation-mobile',
-          'menu_class' => 'navigation-mobile__list',
-          'menu_id' => 'nav'
-        ));
-      ?>
+        // wp_nav_menu(array(
+        //   'theme_location' => 'top',
+        //   'container' => null,
+        //   'container_class' => 'navigation-mobile',
+        //   'menu_class' => 'navigation-mobile__list',
+        //   'menu_id' => 'nav'
+        // ));
       <div class="current-user">
         <img class="current-user__avatar" src="<? echo TOZA_THEME_ROOT ?>/img/avatar_user.png" alt="Джин Дуо">
         <div class="current-user-info">
@@ -38,11 +36,29 @@
   <div class="mini-popup">
     <p>На данный  момент в корзине нет товаров.</p>
   </div>-->
-  <h2>Product card</h2>
   <div class="container">
+  <h2>Product card</h2>
     <ul class="product-list">
       <li class="product-card">
         <img class="product-card__preview" src="<? echo TOZA_THEME_ROOT ?>/img/product-image.png" alt="" />
+        <ul class="product-card__shortcut-list">
+          <li class="shortcut shortcut--new">
+            <img src="<? echo TOZA_THEME_ROOT ?>/img/shortcuts/New.svg" alt="" srcset="">
+            <span class="shortcut__text">Новинка</span>
+            <svg class="shortcut__triangle" xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+              <path d="M4 4L0 0H4V4Z" />
+              <path d="M4 4L0 0H4V4Z" fill="black" fill-opacity="0.3"/>
+            </svg>
+          </li>
+          <li class="shortcut shortcut--hit">
+            <img src="<? echo TOZA_THEME_ROOT ?>/img/shortcuts/Bestseller.svg" alt="" srcset="">
+            <span class="shortcut__text">Хит продаж</span>
+            <svg class="shortcut__triangle" xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+              <path d="M4 4L0 0H4V4Z" />
+              <path d="M4 4L0 0H4V4Z" fill="black" fill-opacity="0.3"/>
+            </svg>
+          </li>
+        </ul>
         <div class="product-card-params">
           <div class="product-card__names">
             <span class="product-card__category">Микс</span>
@@ -60,6 +76,66 @@
         </div>
       </li>
     </ul>
+    <h2>Shortcuts</h2>
+    <div class="shortcuts-list">
+      <div class="shortcut shortcut--new">
+        <img src="<? echo TOZA_THEME_ROOT ?>/img/shortcuts/New.svg" alt="" srcset="">
+        <span class="shortcut__text">Новинка</span>
+        <svg class="shortcut__triangle" xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+          <path d="M4 4L0 0H4V4Z" />
+          <path d="M4 4L0 0H4V4Z" fill="black" fill-opacity="0.3"/>
+        </svg>
+      </div>
+      <div class="shortcut shortcut--no-allowed">
+        <img src="<? echo TOZA_THEME_ROOT ?>/img/shortcuts/NotAllowed.svg" alt="" srcset="">
+        <span class="shortcut__text">Отсутствует</span>
+        <svg class="shortcut__triangle" xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+          <path d="M4 4L0 0H4V4Z" />
+          <path d="M4 4L0 0H4V4Z" fill="black" fill-opacity="0.3"/>
+        </svg>
+      </div>
+      <div class="shortcut shortcut--hit">
+        <img src="<? echo TOZA_THEME_ROOT ?>/img/shortcuts/Bestseller.svg" alt="" srcset="">
+        <span class="shortcut__text">Хит продаж</span>
+        <svg class="shortcut__triangle" xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+          <path d="M4 4L0 0H4V4Z" />
+          <path d="M4 4L0 0H4V4Z" fill="black" fill-opacity="0.3"/>
+        </svg>
+      </div>
+      <div class="shortcut shortcut--limited">
+        <img src="<? echo TOZA_THEME_ROOT ?>/img/shortcuts/Limited.svg" alt="" srcset="">
+        <span class="shortcut__text">Ограничено</span>
+        <svg class="shortcut__triangle" xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+          <path d="M4 4L0 0H4V4Z" />
+          <path d="M4 4L0 0H4V4Z" fill="black" fill-opacity="0.3"/>
+        </svg>
+      </div>
+      
+      <div class="shortcut shortcut--delivery">
+        <img src="<? echo TOZA_THEME_ROOT ?>/img/shortcuts/Delivery.svg" alt="" srcset="">
+        <span class="shortcut__text">Только доставка</span>
+        <svg class="shortcut__triangle" xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+          <path d="M4 4L0 0H4V4Z" />
+          <path d="M4 4L0 0H4V4Z" fill="black" fill-opacity="0.3"/>
+        </svg>
+      </div>
+      <div class="shortcut shortcut--pickup">
+        <img src="<? echo TOZA_THEME_ROOT ?>/img/shortcuts/Pickup.svg" alt="" srcset="">
+        <span class="shortcut__text">Только самовывоз</span>
+        <svg class="shortcut__triangle" xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+          <path d="M4 4L0 0H4V4Z" />
+          <path d="M4 4L0 0H4V4Z" fill="black" fill-opacity="0.3"/>
+        </svg>
+      </div>
+      <div class="shortcut shortcut--gift">
+        <img src="<? echo TOZA_THEME_ROOT ?>/img/shortcuts/GiftDiscount.svg" alt="" srcset="">
+        <span class="shortcut__text">Новогодняя скидка</span>
+        <svg class="shortcut__triangle" xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+          <path d="M4 4L0 0H4V4Z" />
+          <path d="M4 4L0 0H4V4Z" fill="black" fill-opacity="0.3"/>
+        </svg>
+      </div>
+    </div>
   </div>
   
   
