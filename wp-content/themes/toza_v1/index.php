@@ -1,11 +1,11 @@
 <?php get_header() ?>
 <main>
   <h1>UI Elements</h1>
-  <h2>Icons</h2>
+  <!--<h2>Icons</h2>
   <div class="icons">
     <img class="icon" src="<? echo TOZA_THEME_ROOT ?>/img/icons/Account.svg" alt="">
   </div>
-  <!--<div class="popup popup--show">-->
+  <div class="popup popup--show">
   <div class="popup">
     <div class="navigation-mobile">
       <?php 
@@ -34,6 +34,35 @@
       </div>
     </div>
   </div>
+  <h2>Mini-popups</h2>
+  <div class="mini-popup">
+    <p>На данный  момент в корзине нет товаров.</p>
+  </div>-->
+  <h2>Product card</h2>
+  <div class="container">
+    <ul class="product-list">
+      <li class="product-card">
+        <img class="product-card__preview" src="<? echo TOZA_THEME_ROOT ?>/img/product-image.png" alt="" />
+        <div class="product-card-params">
+          <div class="product-card__names">
+            <span class="product-card__category">Микс</span>
+            <h3 class="product-card__title">Ассорти орехов и цукатов</h3>
+          </div>
+          <div class="product-card__prices">
+            <span class="product-card__now-price">490 ₽</span>
+            <span class="product-card__old-price">1050 ₽ </span>
+            <span class="product-card__price-for-weight">Цена за 300 грамм</span>
+          </div>
+          <div class="product-card__buttons">
+            <a href="#" class="product-card__button btn btn--grey">Подробнее</a>
+            <a href="#" class="product-card__button btn btn--primary">Купить</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  
+  
   
   
 </main>

@@ -1,0 +1,25 @@
+.btn {
+  display: inline-block;
+  padding: 0.55em 0;
+  border-radius: 999px;
+  font-size: 14px;
+  &:hover {
+    color: var(--seashell);
+  }
+}
+
+.btn--grey {
+  border: 1px solid var(--quartz);
+  color: var(--quartz);
+  &:hover {
+    background: var(--quartz);
+  }
+}
+
+.btn--primary {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  &:hover {
+    background: var(--primary);
+  }
+}
