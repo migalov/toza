@@ -10,6 +10,7 @@
     wp_enqueue_style( 'fonts-css', TOZA_THEME_ROOT . '/fonts/lato.css', array(), null );
     wp_enqueue_style( 'popup-css', TOZA_THEME_ROOT . '/css/popup.css', array(), null );
     wp_enqueue_style( 'buttons-css', TOZA_THEME_ROOT . '/css/buttons.css', array(), null );
+    wp_enqueue_style( 'checkboxes-css', TOZA_THEME_ROOT . '/css/checkboxes.css', array(), null );
     wp_enqueue_style( 'shortcuts-css', TOZA_THEME_ROOT . '/css/shortcuts.css', array(), null );
     wp_enqueue_style( 'product-card-css', TOZA_THEME_ROOT . '/css/product-card.css', array(), null );
     wp_enqueue_style( 'header-css', TOZA_THEME_ROOT . '/css/header.css', array(), null );

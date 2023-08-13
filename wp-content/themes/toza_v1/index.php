@@ -136,7 +136,7 @@
           <path d="M4 4L0 0H4V4Z" fill="black" fill-opacity="0.3"/>
         </svg>
       </div>
-    </div>-->
+    </div>
     <h2>Features</h2>
     <ul class="features-list">
       <li class="feature-item">
@@ -160,7 +160,28 @@
           <p class="feature-item__description">В пределах города Балашихи и других близлежащих городов мы осуществяем бесперебойную доставку продуктов</p>
         </div>
       </li>
+    </ul>-->
+    <h2>Checkboxes</h2>
+    <ul class="checkboxes">
+      <li>
+        <label class="checkbox-container">Three
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+        <label class="radio-container">Three
+          <input type="radio">
+          <span class="checkmark"></span>
+        </label>
+      </li>
     </ul>
+    <!--<form class="form" action="/" method="post">
+        <h5>Подпишитесь на уведомления, чтобы не пропустить новости о новых товарах</h5>
+        <label class="form__input">
+          <input class="form__input-text" type="text">
+          <span class="form__input-placeholder">Введите email</span>
+        </label>
+      <input type="submit" value="" />
+    </form>-->
   </div>
   
   
